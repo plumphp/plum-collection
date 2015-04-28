@@ -31,7 +31,9 @@ information about using Plum.
 Change Log
 ----------
 
-*No version released yet.*
+### Version 0.1 (28 April 2015)
+
+- Initial release
 
 
 License
