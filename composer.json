@@ -1,0 +1,25 @@
+{
+  "name": "plumphp/plum-collection",
+  "description": "Integrations the Cocur\\Collection component into Plum.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Florian Eckerstorfer",
+      "email": "florian@eckerstorfer.co"
+    }
+  ],
+  "require": {
+    "plumphp/plum":       "^0.2",
+    "cocur/collection":   "dev-master@dev"
+  },
+  "require-dev": {
+    "phpunit/phpunit":    "~4.3",
+    "mockery/mockery":    "~0.9",
+    "mikey179/vfsStream": "~1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Plum\\PlumCollection\\": "src"
+    }
+  }
+}
