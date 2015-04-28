@@ -9,7 +9,7 @@
     }
   ],
   "require": {
-    "plumphp/plum":       "^0.2",
+    "plumphp/plum":       "~0.2",
     "cocur/collection":   "dev-master@dev"
   },
   "require-dev": {
