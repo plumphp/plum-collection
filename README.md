@@ -4,6 +4,7 @@
 > PlumCollection integrates [Cocur\Collection](https://github.com/cocur/collection) into Plum. Plum is a data
 processing pipeline for PHP.
 
+[![Latest Version](https://img.shields.io/packagist/v/plumphp/plum-collection.svg)](https://packagist.org/packages/plumphp/plum-collection)
 [![Build Status](https://img.shields.io/travis/plumphp/plum-collection.svg?style=flat)](https://travis-ci.org/plumphp/plum-collection)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/plumphp/plum-collection.svg?style=flat)](https://scrutinizer-ci.com/g/plumphp/plum-collection/?branch=master)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/plumphp/plum-collection.svg?style=flat)](https://scrutinizer-ci.com/g/plumphp/plum-collection/?branch=master)
@@ -30,6 +31,10 @@ information about using Plum.
 
 Change Log
 ----------
+
+### Version 0.1.1 (17 May 2015)
+
+- Update dependency to Cocur\Collection
 
 ### Version 0.1 (28 April 2015)
 
