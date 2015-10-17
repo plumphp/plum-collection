@@ -1,5 +1,6 @@
-<img src="https://florian.ec/img/plum/logo.png" alt="Plum">
-====
+<h1 align="center">
+    <img src="http://cdn.florian.ec/plum-logo.svg" alt="Plum" width="300">
+</h1>
 
 > PlumCollection integrates [Cocur\Collection](https://github.com/cocur/collection) into Plum. Plum is a data
 processing pipeline for PHP.
@@ -26,7 +27,41 @@ Usage
 -----
 
 Please refer to the [Plum documentation](https://github.com/plumphp/plum/blob/master/docs/index.md) for more
-information about using Plum.
+information about using Plum in general.
+
+PlumCollection provides converts to convert items into elements of a collection.
+
+### `ItemConverter`
+
+`Plum\PlumCollection\ItemConverter` converts the given item into an instance of `Cocur\Collection\Item` and adds it to
+the collection.
+
+```php
+use Plum\PlumCollection\ItemConverter;
+use Cocur\Collection\Collection;
+
+$collection = new Collection();
+$converter = new ItemConverter($collection);
+
+$converter->convert('foobar'); // -> Cocur\Collection\Item
+$collection->count(); // -> 1
+```
+
+### `ArrayItemConverter`
+
+`Plum\PlumCollection\ArrayItemConverter` converts the given item into an instance of `Cocur\Collection\ArrayItem` and
+adds it to the collection.
+
+```php
+use Plum\PlumCollection\ArrayItemConverter;
+use Cocur\Collection\Collection;
+
+$collection = new Collection();
+$converter = new ArrayItemConverter($collection);
+
+$converter->convert(['foo' => 'bar']); // -> Cocur\Collection\ArrayItem
+$collection->count(); // -> 1
+```
 
 
 Change Log
