@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Plum\PlumCollection;
 
 use Cocur\Collection\CollectionInterface;
@@ -8,9 +7,8 @@ use Cocur\Collection\Item;
 use Plum\Plum\Converter\ConverterInterface;
 
 /**
- * ItemConverter
+ * ItemConverter.
  *
- * @package   Plum\PlumCollection
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2015 Florian Eckerstorfer
  */
