@@ -7,6 +7,7 @@ processing pipeline for PHP.
 
 [![Latest Version](https://img.shields.io/packagist/v/plumphp/plum-collection.svg)](https://packagist.org/packages/plumphp/plum-collection)
 [![Build Status](https://img.shields.io/travis/plumphp/plum-collection.svg?style=flat)](https://travis-ci.org/plumphp/plum-collection)
+[![Windows Build status](https://ci.appveyor.com/api/projects/status/18xj5t3a8i13yakb?svg=true)](https://ci.appveyor.com/project/florianeckerstorfer/plum-collection)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/plumphp/plum-collection.svg?style=flat)](https://scrutinizer-ci.com/g/plumphp/plum-collection/?branch=master)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/plumphp/plum-collection.svg?style=flat)](https://scrutinizer-ci.com/g/plumphp/plum-collection/?branch=master)
 
