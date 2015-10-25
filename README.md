@@ -10,6 +10,7 @@ processing pipeline for PHP.
 [![Windows Build status](https://ci.appveyor.com/api/projects/status/18xj5t3a8i13yakb?svg=true)](https://ci.appveyor.com/project/florianeckerstorfer/plum-collection)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/plumphp/plum-collection.svg?style=flat)](https://scrutinizer-ci.com/g/plumphp/plum-collection/?branch=master)
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/plumphp/plum-collection.svg?style=flat)](https://scrutinizer-ci.com/g/plumphp/plum-collection/?branch=master)
+[![StyleCI](https://styleci.io/repos/34750349/shield)](https://styleci.io/repos/34750349)
 
 Developed by [Florian Eckerstorfer](https://florian.ec) in Vienna, Europe.
 
