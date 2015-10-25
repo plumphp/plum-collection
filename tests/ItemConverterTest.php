@@ -5,9 +5,8 @@ namespace Plum\PlumCollection;
 use Mockery;
 
 /**
- * ItemConverterTest
+ * ItemConverterTest.
  *
- * @package   Plum\PlumCollection
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2015 Florian Eckerstorfer
  * @group     unit

@@ -8,9 +8,8 @@ use Plum\Plum\Converter\ConverterInterface;
 use RuntimeException;
 
 /**
- * ArrayItemConverter
+ * ArrayItemConverter.
  *
- * @package   Plum\PlumCollection
  * @author    Florian Eckerstorfer <florian@eckerstorfer.co>
  * @copyright 2015 Florian Eckerstorfer
  */
